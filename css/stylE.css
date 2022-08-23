@@ -1,0 +1,732 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,600&display=swap");
+
+* {
+  color: #532c11;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+
+
+/* qaybta ugu hoaraysa ee websiteka "header" */
+
+.container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(177, 170, 170);
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 2.3rem;
+
+  box-shadow: 0 10px 5px -5px #979393;
+  position: fixed;
+}
+
+ul {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  justify-content: space-around;
+  margin: -2.7rem 0px 0px 10rem;
+}
+
+li:hover {
+  border: 0.5px solid #3f3f3f;
+  border-radius: 0.5rem;
+  color: white;
+  transition: transform 0.2s;
+  box-shadow: 0 0 5px 3px #979393;
+  -moz-box-shadow: 0 0 5px 3px #979393;
+  box-shadow: 0 0 5px 3px #979393;
+}
+
+.logo {
+  width: 40px;
+}
+
+li:hover {
+  color: white;
+  transition: transform 0.2s;
+}
+
+.header {
+  margin-top: 4rem;
+  margin-left: 1rem;
+}
+
+/* qaybta sawirada aan ku hagaaajiyay */
+
+.pic1 {
+  width: 25rem;
+  height: 25rem;
+  margin-top: 4rem;
+}
+
+/* sawirka labaad */
+
+.pic2 {
+  width: 25rem;
+  height: 25rem;
+  margin-top: -3rem;
+}
+
+/* sawirka labaad */
+.first2pic {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* qaybta head 2  */
+.odernow {
+  width: 22rem;
+  border-radius: 1rem;
+
+  background: #532c11;
+
+  color: white;
+  box-shadow: 0 0 5px 3px #979393;
+  -moz-box-shadow: 0 0 5px 3px #979393;
+  box-shadow: 0 0 5px 3px #979393;
+}
+
+/* qaynta pgragh ka kowaad */
+
+.ptag1 {
+  word-wrap: break-word;
+}
+
+/* qaybta head 3  */
+
+.head3 {
+  text-align: center;
+  align-items: center;
+  width: 25rem;
+  border-radius: 0.5rem;
+  margin-left: 30rem;
+  background: #532c11;
+
+  color: white;
+  box-shadow: 0 0 5px 3px #979393;
+  -moz-box-shadow: 0 0 5px 3px #979393;
+  box-shadow: 0 0 5px 3px #979393;
+}
+
+/* qaybta section2 boxes iyo qaybtiisa kowaad */
+
+.uperbox {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.midllebox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.picbox,
+.shadowbox {
+  box-shadow: 0 0 5px 3px #979393;
+  -moz-box-shadow: 0 0 5px 3px #979393;
+  box-shadow: 0 0 5px 3px #979393;
+  border-width: 0.4rem;
+  border-style: solid;
+  height: 100%;
+  width: 100%;
+  border-color: rgb(99, 99, 99);
+  border-radius: 1rem;
+}
+
+.picbox {
+  box-shadow: 0 0 5px 3px #979393;
+  -moz-box-shadow: 0 0 5px 3px #979393;
+  box-shadow: 0 0 5px 3px #979393;
+  border-width: 0.4rem;
+  border-style: solid;
+  height: 20rem;
+  width: 30rem;
+  border-color: rgb(99, 99, 99);
+  border-radius: 1rem;
+}
+
+.shadowbox2 {
+  border-width: 0.4rem;
+  border-style: solid;
+  border-color: rgb(99, 99, 99);
+  height: 20rem;
+  width: 40rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 5px 3px #979393;
+  -moz-box-shadow: 0 0 5px 3px #979393;
+  box-shadow: 0 0 5px 3px #979393;
+}
+
+.boxp {
+  border-width: 0.4rem;
+  border-style: solid;
+  height: 80%;
+  width: 80%;
+  border-color: rgb(99, 99, 99);
+  border-radius: 1rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  box-shadow: 0 0 5px 3px #979393;
+  -moz-box-shadow: 0 0 5px 3px #979393;
+  box-shadow: 0 0 5px 3px #979393;
+  background-color: #e9dede;
+}
+
+/* lastdiv wa qaybtan */
+
+.boxp2 {
+  height: 18rem;
+  width: 25rem;
+}
+
+.boxp3 {
+  margin-top: 1.8rem;
+  height: 18rem;
+  width: 24rem;
+  margin-left: 2.4rem;
+}
+
+.boxp4 {
+  margin-top: 1.8rem;
+  height: 18rem;
+  width: 22rem;
+  margin-right: 2.4rem;
+}
+
+/* qaybta ka dhaxaysa intan yar */
+
+.dhereka {
+  width: 24rem;
+  height: 18rem;
+}
+
+.drnikhead {
+  align-items: center;
+  text-align: center;
+  margin-top: 3rem;
+  margin-left: 30rem;
+}
+
+/* last part footer */
+.me {
+  box-shadow: 0 0 5px 3px #979393;
+  -moz-box-shadow: 0 0 5px 3px #979393;
+  box-shadow: 0 0 5px 3px #979393;
+  border-width: 0.4rem;
+  border-style: solid;
+  border-color: rgb(99, 99, 99);
+  border-radius: 1rem;
+  height: 10rem;
+  width: 40rem;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 26rem;
+}
+
+.me:hover {
+  background: url(./images/last\ pic1.png);
+}
+
+.lastp {
+  font-weight: 800;
+  color: rgb(0, 0, 0);
+}
+
+/* qaybta footerka */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -3rem;
+  background-color: rgb(177, 170, 170);
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4.3rem;
+  padding: 1rem;
+  box-shadow: inset 0px 11px 8px -10px #ccc, inset 0px -11px 8px -10px #ccc;
+}
+
+/* iconska */
+
+.fa-square-instagram {
+  margin-right: 3rem;
+  color: #e95950;
+}
+
+.fa-square-facebook {
+  color: blue;
+}
+
+.fa-location-dot {
+  color: red;
+}
+
+.i {
+  font-size: 1.4rem;
+  margin-left: 10px;
+  background-color: azure;
+  padding: 5px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px 0 rgb(0, 0, 0, 0.1);
+}
+
+.fa-facebook:hover {
+  color: blue;
+  box-shadow: 0 0 5px 3px #979393;
+  -moz-box-shadow: 0 0 5px 3px #979393;
+  box-shadow: 0 0 5px 3px #979393;
+  transform: scale(2) rotate(0.1deg);
+  border: 2rem solid #3f3f3f;
+
+}
+
+a:hover {
+  transform: scale(1.5);
+}
+
+.logo:hover {
+  transform: scale(1.5);
+}
+
+/* qaybta contactska */
+
+/* formkiisa koowaad  */
+
+.contac1 {
+  border-width: 0.4rem;
+  border-style: solid;
+  border-color: rgb(160, 159, 159);
+  height: 18rem;
+  width: 50rem;
+  /* margin-top: 1.5rem; */
+  margin-left: 18rem;
+  border-radius: 1rem;
+  align-items: center;
+  text-align: center;
+  padding: 0.8em;
+}
+
+label {
+  display: block;
+}
+
+.message {
+  border-radius: 1rem;
+  text-align: center;
+  padding: 0.5rem;
+  width: 35rem;
+  height: 8rem;
+}
+
+.form1 {
+  border-radius: 1rem;
+  text-align: center;
+  margin-top: -1rem;
+  width: 35rem;
+  height: 2rem;
+  padding: 0.9rem;
+}
+
+button {
+  border-radius: 1rem;
+  text-align: center;
+  height: 1.5rem;
+  width: 3.9rem;
+  margin-top: -10rem;
+}
+
+.contac2 {
+  margin-left: 19rem;
+  margin-top: 3rem;
+}
+
+.fx {
+  border-radius: 1rem;
+
+  border-width: 0.2rem;
+  border-style: solid;
+  border-color: rgb(160, 159, 159);
+  text-align: center;
+  width: 30rem;
+  height: 3rem;
+  padding: 0.5rem;
+  margin-left: 8rem;
+  margin-top: 1rem;
+}
+
+.to {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* AYBTA ACTIVE LIKNSKA? */
+.active-link {
+  border: none;
+  outline: none;
+
+  /* background-color: #f1f1f1; */
+  border-bottom: 0.3rem solid #302525;
+  cursor: pointer;
+
+  /* QAYBTA ODERKA BOXESKA */
+}
+
+
+.contac5 {
+  border-width: 0.4rem;
+  border-style: solid;
+  border-color: rgb(160, 159, 159);
+  height: 23rem;
+  width: 40rem;
+  /* margin-top: 1.5rem; */
+  margin-left: 18rem;
+  border-radius: 1rem;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.form1 {
+  margin: 0.1rem;
+
+}
+
+.form3 {
+  border-radius: 1rem;
+
+  border-width: 0.2rem;
+  border-style: solid;
+  border-color: rgb(160, 159, 159);
+  text-align: center;
+  width: 65rem;
+  height: 9rem;
+  padding: 0.5rem;
+  margin: 1rem;
+}
+
+.label2 {
+  display: flex;
+}
+
+.label3 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  justify-content: center;
+}
+
+.midbutton {
+  border-radius: 1rem;
+  text-align: center;
+  height: 1.8rem;
+  width: 9rem;
+  font-weight: bolder;
+}
+
+.firsth2 {
+  margin-left: 20rem;
+  padding: 0.5rem;
+}
+
+.oderdiv {
+  padding: 3rem;
+
+}
+
+/* qaybta about uska pagkiisa aya hlakn ka bilaabanaya */
+
+.choose {
+  border-radius: 1rem;
+
+  border-width: 0.2rem;
+  border-style: solid;
+  border-color: rgb(160, 159, 159);
+  text-align: center;
+  width: 40rem;
+  height: 17rem;
+  padding: 0.1rem;
+
+}
+
+.iconic {
+  display: flex;
+  margin-top: 50rem;
+  margin-left: 32rem;
+  justify-content: space-around;
+}
+
+
+/* halkan waxn ku hagaajin donaa qaybta yar oo icons ka aboutka ku dhex jira/ */
+
+
+.fa-business-time {
+
+  color: white;
+
+}
+
+.fa-dollar-sign {
+
+  color: white;
+}
+
+.fa-truck {
+  color: white;
+
+}
+
+
+
+
+
+.icons12 {
+  text-align: center;
+  background-color: #532c11;
+  width: 10rem;
+  height: 2rem;
+  color: white;
+  border: #532c11;
+  padding: 0.5rem;
+}
+
+
+span {
+  font-weight: 600;
+  font-family: serif;
+  background: rgb(106, 176, 189);
+}
+
+.manuu {
+  height: 40rem;
+  width: 45rem;
+  margin-top: -4rem;
+  margin-left: -14rem
+}
+
+.fisrt1 {
+  display: flex;
+  padding: 10rem;
+  margin-top: -5rem;
+}
+
+.second1 {
+  padding: 2rem;
+  justify-content: space-evenly;
+  display: flex;
+  margin-bottom: 20rem;
+}
+
+.dhinac1 {
+  height: 20rem;
+  width: 30rem;
+}
+
+.floatright {
+  margin-top: -17rem;
+  margin-left: 45rem;
+}
+
+
+
+
+
+
+.dajiya {
+  width: 100%;
+  height: 100%;
+  padding: 15rem;
+
+}
+
+.whoweare {
+
+  margin-top: -1rem;
+
+}
+
+.about3 {
+
+
+  border-width: 0.4rem;
+  border-style: solid;
+  border-color: rgb(160, 159, 159);
+  height: 20rem;
+  width: 70rem;
+
+  margin-right: -10rem;
+}
+
+.about3:hover {
+
+  background-color: #b6a3a2;
+}
+
+
+
+
+
+.clas12 {
+  margin: 2rem;
+
+  margin-top: -2rem;
+  height: 25rem;
+
+
+}
+
+
+
+
+
+/* QAYBTA DISHES Css KEEDA? */
+
+
+.flexdiv {
+
+  display: flex;
+  margin-left: 3rem;
+
+}
+
+.dish2 {
+  border-radius: 1rem;
+
+  border-width: 0.4rem;
+  border-style: solid;
+  border-color: rgb(160, 159, 159);
+  padding: 2rem;
+  margin: 1rem;
+  text-align: center;
+
+}
+
+.ciwaanka2 {
+
+  text-align: center;
+
+}
+
+.ciwaanka1:hover {
+  transform: scale(1.2);
+  color: #e95950;
+  font-weight: 600;
+}
+
+.imgdishes {
+  width: 33rem;
+  height: 25 rem;
+
+}
+
+.ciwaanka1 {
+  margin-top: 3.5rem;
+  padding: -5rem;
+}
+
+
+/* LAST PART OF THE WEB */
+/* service page */
+
+.service1 {
+  background-color: #532c11;
+  margin-right: 11rem;
+  border-width: 0.4rem;
+  border-style: solid;
+  height: 80%;
+  width: 100%;
+  border-color: rgb(99, 99, 99);
+  border-radius: 1rem;
+}
+
+.service2 {
+  margin-bottom: 3rem;
+  height: 80%;
+  width: 100%;
+}
+
+.flexfx {
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  width: 10rem;
+  height: 2rem;
+  text-align: center;
+
+}
+
+.flexfx1 {
+
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  border: none;
+  margin-bottom: 2.5rem;
+}
+
+.malit {
+
+  text-align: center;
+}
+
+malit2 {
+
+  display: flex;
+  background-color: #532c11;
+  margin-right: 11rem;
+  border-width: 0.4rem;
+  border-style: solid;
+  height: 80%;
+  width: 100%;
+  border-color: rgb(99, 99, 99);
+  border-radius: 1rem;
+}
+
+.fx12 {
+  height: 18rem;
+  width: 17rem;
+  margin-left: 2.5rem;
+
+
+}
+
+.btn1 {
+  width: 10rem;
+  height: 2rem;
+  text-align: center;
+  margin-left: 17rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
